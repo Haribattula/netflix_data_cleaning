@@ -26,8 +26,8 @@ import seaborn as sns
 # In[ ]:
 
 
-# Load data
-data = pd.read_csv("C:/netflix_data_cleaning/netflix_titles.csv")
+data = pd.read_csv("netflix_titles.csv")
+
 
 # Display the first few rows of the dataset
 data.head()
