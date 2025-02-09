@@ -5,7 +5,7 @@ import threading
 app = Flask(__name__)
 
 def run_notebook():
-    subprocess.run(["jupyter", "nbconvert", "--to", "notebook", "--execute", "--inplace", "NET.ipynb"], check=True)
+   # subprocess.run(["jupyter", "nbconvert", "--to", "notebook", "--execute", "--inplace", "NET.ipynb"], check=True)
 
 @app.route("/")
 def home():
